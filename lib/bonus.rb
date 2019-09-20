@@ -20,10 +20,12 @@ def bonus
    }
   }
 
-  #code your solution here:
-
+  #will this be a method?
   
-
+  montague = epic_tragedy[montague]
+  life_status = montague[:hero]
+  life_status << "dead"
+  
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
