@@ -8,21 +8,25 @@ def bonus
          {name: "Benvolio", age: "17", attitude: "worried"},
          {name: "Steven", age: "30", attitude: "confused"}
       ]
-   }, 
+   },
    :capulet => {
       :patriarch => {name: "Lord Capulet", age: "50"},
       :matriarch => {name: "Lady Capulet", age: "51"},
       :heroine => {name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => [
-          {name: "Mercutio", age: "18", attitude: "hot-headed"}, 
+          {name: "Mercutio", age: "18", attitude: "hot-headed"},
           {name: "Nurse", age: "44", attitude: "worried"}
       ]
    }
   }
 
   #code your solution here:
+  romeo = epic_tragedy[:montague][:hero]
+  romeo[:status] = "dead"
+  juliet = epic_tragedy[:capulet][:heroine]
+  juliet[:status] = "dead"
 
-  
+
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
