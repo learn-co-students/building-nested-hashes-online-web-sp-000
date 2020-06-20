@@ -25,5 +25,10 @@ def bonus
   
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
-  epic_tragedy
+  epic_tragedy = {
+   :montague => {
+      epic_tragedy
+  :heroine => {name: "Juliet", age: "15", status: "dead"}
+}
+  }
 end
