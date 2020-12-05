@@ -1,63 +1,40 @@
 require "pry"
-
-
-def third_challenge
-  epic_tragedy = {
-  :montague => {
-    :patriarch => {  
-      :name => "Lord Montague",
-      :age => "53"
-  },
-    :matriarch => {
-      :name => "Lady Montague",
-      :age => "54"
-  },
-    :hero => {
-      :name => "Romeo",
-      :age => "15",
-  },
-    :hero_friends => [
-      {
-         :name => "Benvolio",
-         :age => "17",
-         :attitude => "worried"
-      },
-      {
-        :name => "Mercutio",
-        :age => "18",
-        :attitude => "hot-headed"
-      }
-    ]
-  },
-  :capulet => {
-    :patriarch => {
-      :name => "Lord Capulet",
-      :age => "50"
-    },
-    :matriarch => {
-      :name => "Lady Capulet",
-      :age => "51"
-    },
-    :heroine => {
-      :name => "Juliet",
-      :age => "15",
-      :status => "alive"
-    },
-    :heroine_friends=> [
-      {
-        :name => "Steven",
-        :age => "30",
-        :attitude => "confused"
-      },
-      {
-        :name => "Nurse",
-        :age => "44",
-        :attitude => "worried"
-      }
-    ]
-  }
+require_relative '../lib/third_challenge.rb'
+ 
+ def third_challenge
+   epic_tragedy = {
+    :montague => { 
+    :patriarch => {},
+    :matriarch => {},
+    :hero => {},
+    :hero_friends => []
+      }, 
+    :capulet => {
+    :patriarch => {},
+    :matriarch => {},
+    :heroine => {},
+    :heroine_friends => [] 
+    }
 }
+epic_tragedy[:montague][:patriarch][:name] = "Lord Montague"
+epic_tragedy[:montague][:patriarch][:age ] = "53"
+ 
+epic_tragedy[:montague][:matriarch][:name] = "Lady Montague"
+epic_tragedy[:montague][:matriarch][:age] = "54"
 
-  epic_tragedy[:montague][:hero][:status] = "alive"
-end 
-  
+epic_tragedy[:montague][:hero][:name] = "Romeo" 
+epic_tragedy[:montague][:hero][:age] = "15"
+epic_tragedy[:montague][:hero][:status] = "alive"
+ 
+epic_tragedy[:capulet][:patriarch][:name] = "Lord Capulet"
+epic_tragedy[:capulet][:patriarch][:age] = "53" 
+
+ 
+epic_tragedy[:capulet][:matriarch][:name] = "Lady Capulet"
+epic_tragedy[:capulet][:matriarch][:age] = "51"
+
+epic_tragedy[:capulet][:heroine][:name] = "Juliet" 
+epic_tragedy[:capulet][:heroine][:age] = "15"
+epic_tragedy[:capulet][:heroine][:status] = "alive" 
+
+end   
