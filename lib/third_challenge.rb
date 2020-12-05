@@ -27,7 +27,7 @@ epic_tragedy[:montague][:hero][:age] = "15"
 epic_tragedy[:montague][:hero][:status] = "alive"
  
 epic_tragedy[:capulet][:patriarch][:name] = "Lord Capulet"
-epic_tragedy[:capulet][:patriarch][:age] = "53" 
+epic_tragedy[:capulet][:patriarch][:age] = "50" 
 
  
 epic_tragedy[:capulet][:matriarch][:name] = "Lady Capulet"
@@ -36,7 +36,8 @@ epic_tragedy[:capulet][:matriarch][:age] = "51"
 epic_tragedy[:capulet][:heroine][:name] = "Juliet" 
 epic_tragedy[:capulet][:heroine][:age] = "15"
 epic_tragedy[:capulet][:heroine][:status] = "alive" 
-}
 
-end
+return epic_tragedy
+end 
+  
   
