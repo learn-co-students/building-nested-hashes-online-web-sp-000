@@ -1,0 +1,33 @@
+
+[1mFrom:[0m /home/pekellogg/flatiron_self-paced/building-nested-hashes-online-web-sp-000/lib/bonus.rb:26 Object#bonus:
+
+     [1;34m2[0m: [32mdef[0m [1;34mbonus[0m
+     [1;34m3[0m:   epic_tragedy = {
+     [1;34m4[0m:    [33m:montague[0m => {
+     [1;34m5[0m:       [33m:patriarch[0m => {[35mname[0m: [31m[1;31m"[0m[31mLord Montague[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m53[1;31m"[0m[31m[0m},
+     [1;34m6[0m:       [33m:matriarch[0m => {[35mname[0m: [31m[1;31m"[0m[31mLady Montague[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m54[1;31m"[0m[31m[0m},
+     [1;34m7[0m:       [33m:hero[0m => {[35mname[0m: [31m[1;31m"[0m[31mRomeo[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m15[1;31m"[0m[31m[0m, [35mstatus[0m: [31m[1;31m"[0m[31malive[1;31m"[0m[31m[0m},
+     [1;34m8[0m:       [33m:hero_friends[0m => [
+     [1;34m9[0m:          {[35mname[0m: [31m[1;31m"[0m[31mBenvolio[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m17[1;31m"[0m[31m[0m, [35mattitude[0m: [31m[1;31m"[0m[31mworried[1;31m"[0m[31m[0m},
+    [1;34m10[0m:          {[35mname[0m: [31m[1;31m"[0m[31mSteven[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m30[1;31m"[0m[31m[0m, [35mattitude[0m: [31m[1;31m"[0m[31mconfused[1;31m"[0m[31m[0m}
+    [1;34m11[0m:       ]
+    [1;34m12[0m:    }, 
+    [1;34m13[0m:    [33m:capulet[0m => {
+    [1;34m14[0m:       [33m:patriarch[0m => {[35mname[0m: [31m[1;31m"[0m[31mLord Capulet[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m50[1;31m"[0m[31m[0m},
+    [1;34m15[0m:       [33m:matriarch[0m => {[35mname[0m: [31m[1;31m"[0m[31mLady Capulet[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m51[1;31m"[0m[31m[0m},
+    [1;34m16[0m:       [33m:heroine[0m => {[35mname[0m: [31m[1;31m"[0m[31mJuliet[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m15[1;31m"[0m[31m[0m, [35mstatus[0m: [31m[1;31m"[0m[31malive[1;31m"[0m[31m[0m},
+    [1;34m17[0m:       [33m:heroine_friends[0m => [
+    [1;34m18[0m:           {[35mname[0m: [31m[1;31m"[0m[31mMercutio[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m18[1;31m"[0m[31m[0m, [35mattitude[0m: [31m[1;31m"[0m[31mhot-headed[1;31m"[0m[31m[0m}, 
+    [1;34m19[0m:           {[35mname[0m: [31m[1;31m"[0m[31mNurse[1;31m"[0m[31m[0m, [35mage[0m: [31m[1;31m"[0m[31m44[1;31m"[0m[31m[0m, [35mattitude[0m: [31m[1;31m"[0m[31mworried[1;31m"[0m[31m[0m}
+    [1;34m20[0m:       ]
+    [1;34m21[0m:    }
+    [1;34m22[0m:   }
+    [1;34m23[0m: 
+    [1;34m24[0m:   [1;34m#code your solution here:[0m
+    [1;34m25[0m:    epic_tragedy[[33m:montague[0m][[33m:hero[0m][[33m:status[0m] = [31m[1;31m"[0m[31mdead[1;31m"[0m[31m[0m
+ => [1;34m26[0m:    binding.pry
+    [1;34m27[0m:    epic_tragedy[[33m:capulet[0m][[33m:heroine[0m][[33m:status[0m] = [31m[1;31m"[0m[31mdead[1;31m"[0m[31m[0m
+    [1;34m28[0m:   [1;34m#Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash[0m
+    [1;34m29[0m:   epic_tragedy
+    [1;34m30[0m: [32mend[0m
+
